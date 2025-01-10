@@ -1,0 +1,68 @@
+###############################
+# FORMATOS VÁLIDOS POR CAMPO #
+###############################
+
+1. **CodigoL**
+   - Debe contener solo números.
+   - Tamaño máximo: 11 dígitos.
+
+2. **AutoresL**
+   - Puede contener letras, espacios, comas, puntos, guiones y caracteres con acentos (incluye ñ).
+   - Tamaño mínimo: 3 carácter.
+   - Tamaño máximo: 200 caracteres.
+
+3. **TituloL**
+   - Puede contener letras, números, espacios, comas, puntos, guiones y caracteres con acentos(incluye ñ).
+   - Tamaño mínimo: 3 carácter.
+   - Tamaño máximo: 100 caracteres.
+
+4. **ISBN**
+   - Debe contener solo números.
+   - Tamaño mínimo: 13 caracteres.
+   - Tamaño máximo: 13 caracteres.
+
+5. **PagIniL**
+   - Debe contener solo números.
+   - Tamaño mínimo: 1 dígito.
+   - Tamaño máximo: 4 dígitos.
+
+6. **PagFinL**
+   - Debe contener solo números.
+   - Tamaño mínimo: 1 dígito.
+   - Tamaño máximo: 4 dígitos.
+   - Validación adicional: El valor debe ser mayor o igual que "PagIniL".
+
+7. **VolumenL**
+   - Debe contener solo números.
+   - Tamaño mínimo: 1 dígito.
+   - Tamaño máximo: 4 dígitos.
+
+8. **EditorialL**
+   - Puede contener letras, números, espacios, comas, puntos, guiones y caracteres con acentos.
+   - Tamaño mínimo: 3 carácter.
+   - Tamaño máximo: 100 caracteres.
+
+9. **FechaPublicacionL**
+   - Debe estar en formato de fecha: AAAA-MM-DD (año-mes-día).
+   - Validación adicional: Debe ser una fecha válida.
+
+10. **EditorL**
+    - Puede contener letras, espacios, comas, puntos, guiones y caracteres con acentos.
+    - Tamaño mínimo: 1 carácter.
+    - Tamaño máximo: 100 caracteres.
+
+11. **PaisEdicionL**
+    - Puede contener letras, espacios y caracteres con acentos.
+    - Tamaño mínimo: 1 carácter.
+    - Tamaño máximo: 20 caracteres.
+
+12. **nuevo_archivopdfL**
+    - Nombre del archivo puede contener letras, puntos y caracteres válidos para nombres de archivos.
+    - Tamaño mínimo del nombre: 11 caracteres.
+    - Tamaño máximo del nombre: 104 caracteres.
+    - Tamaño máximo del archivo: 2 MB.
+    - Solo se permiten archivos en formato PDF.
+
+13. **archivopdfL**
+    - Nombre del archivo puede contener letras, puntos y caracteres válidos para nombres de archivos.
+    - Tamaño máximo del nombre: 100 caracteres.
